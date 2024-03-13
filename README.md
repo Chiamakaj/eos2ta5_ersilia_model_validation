@@ -14,7 +14,11 @@ The repository is organised in folders:
 - Load the model into the jupyter notebook
 - Use the python file to run the model
 - The data folder contains the dataset used to test the model
-- The findings from the model performance can be found in the figures folder 
+- The findings from the model performance can be found in the figures folder
+
+## Process
+![image](https://github.com/Chiamakaj/Ersilia_model_validation/assets/88968378/7b1eceb0-588a-489b-8703-343fc98d1ae3)
+
 
 ## License
 All the code in this repository is licensed under a GPLv3 License.
