@@ -1,4 +1,4 @@
-# eos2ta5_ersilia_model_validation
+# ersilia_model_validation
 This is a model validation repository for eos2ta5 model (Outreachy contribution 2024).
 
 ## Repository organisation
@@ -10,6 +10,7 @@ The repository is organised in folders:
 
 ## How to use this repository
 - The model used here was gotten from Ersilia Model Hub.
+- Each model has a readme file to help replicate the process.
 - Load the model into the jupyter notebook
 - Use the python file to run the model
 - The data folder contains the dataset used to test the model
