@@ -1,5 +1,5 @@
 # Ersilia_model_validation
-This repository contains modle validation for two models gotten from Ersilia hub. one for hERG blocker and the second one is PAMPA at pH 7.4. The summary for each model can be found in the readmefile contained in its folder. This contribution is part of the Outreachy 2024 internship selection process.
+This repository contains modle validation for two models gotten from Ersilia hub. One for hERG blocker and the second one is PAMPA at pH 7.4. The summary for each model can be found in the readmefile contained in its folder. This contribution is part of the Outreachy 2024 internship selection process.
 
 ## Repository organisation
 The repository is organised in folders:
