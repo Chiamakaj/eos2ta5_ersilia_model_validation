@@ -9,10 +9,10 @@ The repository is organised in folders:
 - 'requirements.txt' lists all the required packages to run the notebooks in this repository and the version of the package.
 
 ## How to use this repository
-- The model used her was gotten from Ersilia Model Hub.
+- The model used here was gotten from Ersilia Model Hub.
 - Load the model into the jupyter notebook
 - Use the python file to run the model
-- The dat folder contains the dataset used to test the model
+- The data folder contains the dataset used to test the model
 - The findings from the model performance can be found in the figures folder 
 
 ## License
