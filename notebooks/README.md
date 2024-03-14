@@ -85,9 +85,17 @@ Ubuntu 20.04 with Python 3.7
 
 Reproducibility Summary
 
+- **All images/figures can be found in /figures folder**
+
 - From the publication, Tanimoto similarity was done on the training set and all three test sets to show that the data sets were all different and had no hint of similarity. During this reproducibility evaluation, I used the authors' data set to reproduce the similarity plots as can be found in the **/figures** folder.
 
+  ![image](https://github.com/Chiamakaj/Ersilia_model_validation/assets/88968378/1522f7e3-d43b-48a7-8823-3e48d3460ac4)
+
+
 - The publication also contains a scatter plot showing the space diversity which was definded using t-SNE components for all the data set which was also successfully reproduced. This shows diverse space distribution of the SMILEs as well as some overlap in the dataset. Even though there is a similarity between the plots from the original authors and the evaluation done here, some outliers were noticed which was not mentioned in the publication.
+
+  ![image](https://github.com/Chiamakaj/Ersilia_model_validation/assets/88968378/afc91291-303d-487d-8098-9fdbe38f4af4)
+
 
 - Three tests sets were used by the authors to test the final model and some metrics like specificity, sensitivity, negative predictive value, positive predictive value, accuracy, Mathews correlation coefficient were used to evaluate the model's performance. This value was also reproduced in this work. The model performed well based on the sensitivity showing that it has a hogh chnage of predicting true positive values. It also performed well basen on the negative predictive value which tell that it has a high chance of predicting non-blokers correctly.
 
