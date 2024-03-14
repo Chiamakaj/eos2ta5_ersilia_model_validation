@@ -45,14 +45,14 @@ Ubuntu 20.04 with Python 3.7
 
 ## Findings
 
-Model bias evaluation:
+**Model bias evaluation**
 
 - The initial prediction was carried out using 1000 SMILEs. After prediction, 752 SMILEs where categorized as hERG non-blocker while 248 were categorized as hERG blocker as their probability fall above 0.5.
 - The distribution of the probability shows that a large number of the molecules are below 0.5. According to the model's publication, this means that a larger number of molecules in the dataset selected are hERG non blockers while the rest that are 0.5 and above are hERG blockers.
 - The histogram also shows the frequency of the probability values which is seen to have a majority value between 0.1 and 0.2.
 
 
-Model Reproducibility
+**Model Reproducibility**
 
 - The data set used to reproduce the figures from the publication of the model can be found here (https://github.com/Abdulk084/CardioTox/tree/master/data). This repository contains 
 
@@ -79,9 +79,9 @@ Model Reproducibility
 
 	Issues faced while setting up the environment
 	-  TypeError for protobuf 
-		Solution: Downgraded protobut by using "pip install protobuf==3.20.0"
+		- Solution: Downgraded protobut by using "pip install protobuf==3.20.0"
 	- Numpy version upgrade required
-		Solution: Upgraded numpy by using "pip install numpy==1.19.5"
+		- Solution: Upgraded numpy by using "pip install numpy==1.19.5"
 
 Reproducibility Summary
 
