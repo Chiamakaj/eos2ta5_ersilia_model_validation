@@ -89,9 +89,14 @@ Reproducibility Summary
 
 - The publication also contains a scatter plot showing the space diversity which was definded using t-SNE components for all the data set which was also successfully reproduced. This shows diverse space distribution of the SMILEs as well as some overlap in the dataset. Even though there is a similarity between the plots from the original authors and the evaluation done here, some outliers were noticed which was not mentioned in the publication.
 
-- Three tests sets were used by the authors to test the final model and some metrics like specificity, sensitivity, negative predictive value, positive predictive value, accuracy, Mathews correlation coefficient were used to evaluate the model's performance. This value was also reproduced in this work. The model performed well based on the sensitivity showing that it has a hogh chnage of predicting true positive values. It also performed well basen on the negative predictive value which tell that it has a high chance of predicting non-blokers correctly. 
+- Three tests sets were used by the authors to test the final model and some metrics like specificity, sensitivity, negative predictive value, positive predictive value, accuracy, Mathews correlation coefficient were used to evaluate the model's performance. This value was also reproduced in this work. The model performed well based on the sensitivity showing that it has a hogh chnage of predicting true positive values. It also performed well basen on the negative predictive value which tell that it has a high chance of predicting non-blokers correctly.
+
+  ![image](https://github.com/Chiamakaj/Ersilia_model_validation/assets/88968378/8e21759c-acf0-467d-9e89-99a2c2bb2735)
+
 
 - Test set I was run using eos2ta5 model from Ersilia Model Hub and predictions were extracted. These predictions were used to analyse the model performance using the same metrics mentioned above that were used by the authors and Ersilia model produced the same results.
+
+  ![image](https://github.com/Chiamakaj/Ersilia_model_validation/assets/88968378/861b567c-9183-45f9-8cca-7c1ea9617faf)
 
 
 
