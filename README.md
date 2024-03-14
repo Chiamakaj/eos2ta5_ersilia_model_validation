@@ -1,5 +1,5 @@
 # Ersilia_model_validation
-This repository contains modle validation for eos2t15 model gotten from Ersilia hub which tells the probability of a molecule being a  hERG blocker. **The summary for the model can be found in the readmefile contained in its notebook folder**. This contribution is part of the Outreachy 2024 internship selection process.
+This repository contains modle validation for eos2ta5 model gotten from Ersilia hub which tells the probability of a molecule being a  hERG blocker. **The summary for the model can be found in the readmefile contained in its notebook folder**. This contribution is part of the Outreachy 2024 internship selection process.
 
 ## Repository organisation
 The repository is organised in folders:
