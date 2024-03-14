@@ -17,7 +17,8 @@ The repository is organised in folders:
 - The findings from the model performance can be found in the figures folder
 
 ## Process
-![image](https://github.com/Chiamakaj/Ersilia_model_validation/assets/88968378/8912a4b7-add2-4b1f-9b71-8cb12b6e391d)
+![image](https://github.com/Chiamakaj/Ersilia_model_validation/assets/88968378/cb45db4d-f19b-4eab-b3f1-a82f63c88241)
+
 
 ## License
 All the code in this repository is licensed under a GPLv3 License.
