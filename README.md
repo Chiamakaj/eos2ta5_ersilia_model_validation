@@ -1,6 +1,11 @@
 # Model Evaluation Summary for eos2ta5 (cardiotoxnet-herg)
 # Ligand-based prediction of hERG blockade
 
+## Model Summary
+
+hERG is the human ether-à-go-go gene that is responsible for encoding a voltage dependent ion that regulates the electrical activities of the heart. Some molecules found in drugs have been observed to inhibit the activities of this gene resulting in scientists and pharmaceuticals working out ways to factor out these molecules during drug production. The cardiotoxnet-herg model is one of the computational models that have been designed to detect these harmful molecules before drug production.
+
+
 ## Model Characteristics
 
 - Input: `Compound`
@@ -15,10 +20,6 @@
 ## Task Process
 ![image](https://github.com/Chiamakaj/Ersilia_model_validation/assets/88968378/cb45db4d-f19b-4eab-b3f1-a82f63c88241)
 
-
-## Model Summary
-
-hERG is the human ether-à-go-go gene that is responsible for encoding a voltage dependent ion that regulates the electrical activities of the heart. Some molecules found in drugs have been observed to inhibit the activities of this gene resulting in scientists and pharmaceuticals working out ways to factor out these molecules during drug production. The cardiotoxnet-herg model is one of the computational models that have been designed to detect these harmful molecules before drug production.
 
 ## Model Description
 
