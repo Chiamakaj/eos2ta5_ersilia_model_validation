@@ -3,16 +3,16 @@
 
 ## Model Characteristics
 
-- Input: Compound
-- Input Shape: Single
-- Task: Classification
-- Output: Probability
-- Output Type: Float
-- Output Shape: Single
+- Input: `Compound`
+- Input Shape: `Single`
+- Task: `Classification`
+- Output: `Probability`
+- Output Type: `Float`
+- Output Shape: `Single`
 - Interpretation: Probability that the compound inhibits hERG (IC50 < 10 uM)
 
 
-## Process
+## Task Process
 ![image](https://github.com/Chiamakaj/Ersilia_model_validation/assets/88968378/cb45db4d-f19b-4eab-b3f1-a82f63c88241)
 
 
