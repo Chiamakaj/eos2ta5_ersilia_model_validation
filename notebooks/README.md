@@ -84,6 +84,11 @@ Ubuntu 20.04 with Python 3.7
 	- cd PyBioMed
 	- python setup.py install
 	- cd ..
+   	- Test the model with "python test.py"
+   	  You should get an output like this
+
+	![image](https://github.com/Chiamakaj/Ersilia_model_validation/assets/88968378/84ec6920-8e11-420e-9fe0-c45aa33e82ab)
+
 
 	Issues faced while setting up the environment
 	-  TypeError for protobuf 
