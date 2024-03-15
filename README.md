@@ -91,7 +91,7 @@ Ubuntu 20.04 with Python 3.7
 	- download environment.yml file at [here](https://github.com/Abdulk084/CardioTox/blob/master/environment.yml)
 	- conda env create -f environment.yml
 	- conda activate cardiotox
-	- git clone [here](https://github.com/Abdulk084/CardioTox.git)
+	- git clone https://github.com/Abdulk084/CardioTox.git
 	- cd Cardiotox 
 	- cd PyBioMed
 	- python setup.py install
@@ -161,7 +161,7 @@ External validation summary
 ## Reference
 - [Github](https://github.com/Abdulk084/CardioTox)
 - [Publication](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00541-z)
-- [Ersilia: ]([https://github.com/ersilia-os/eos2ta5?tab=readme-ov-file](https://github.com/ersilia-os/eos2ta5/tree/main))
+- [Ersilia Model Page]([https://github.com/ersilia-os/eos2ta5?tab=readme-ov-file](https://github.com/ersilia-os/eos2ta5/tree/main))
 
 ## License
 
