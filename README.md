@@ -37,7 +37,7 @@ Ubuntu 20.04 with Python 3.7
 	- conda create -n ersilia python=3.7
 	- conda activate ersilia
 	- python -m pip install isaura==0.1
-	- git clone https://github.com/ersilia-os/ersilia.git
+	- git clone 'https://github.com/ersilia-os/ersilia.git'
 	- cd ersilia
 	- pip install -e .
 5. Test the selected model to be sure it works.
