@@ -49,7 +49,15 @@ Ubuntu 20.04 with Python 3.7
 
 - The initial prediction was carried out using 1000 SMILEs. After prediction, 752 SMILEs where categorized as hERG non-blocker while 248 were categorized as hERG blocker as their probability fall above 0.5.
 - The distribution of the probability shows that a large number of the molecules are below 0.5. According to the model's publication, this means that a larger number of molecules in the dataset selected are hERG non blockers while the rest that are 0.5 and above are hERG blockers.
+
+	![image](https://github.com/Chiamakaj/Ersilia_model_validation/assets/88968378/8d7f44ba-b9b1-4e81-8869-6b95bff33ebc)
+
+  
 - The histogram also shows the frequency of the probability values which is seen to have a majority value between 0.1 and 0.2.
+
+	![image](https://github.com/Chiamakaj/Ersilia_model_validation/assets/88968378/c3678c1b-2de2-4dec-8354-54cbd9229c69)
+
+   
 
 
 **Model Reproducibility**
@@ -108,6 +116,7 @@ Reproducibility Summary
   ![image](https://github.com/Chiamakaj/Ersilia_model_validation/assets/88968378/8e21759c-acf0-467d-9e89-99a2c2bb2735)
 
 
+**Model Performace using exterval validation**
 
 ## License
 
