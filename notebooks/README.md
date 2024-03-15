@@ -12,7 +12,7 @@ hERG is the human ether-à-go-go gene that is responsible for encoding a voltage
 - The model generates probability score.
 - Probability greater than or equal to 0.5 declares the molecule to be hERG blocker.
 
-## Environment setup
+## Ersilia environment setup
 
 Ubuntu 20.04 with Python 3.7
 
@@ -75,7 +75,7 @@ Ubuntu 20.04 with Python 3.7
 
 - The implemetation was carried out on Ubuntu 20.04 and python 3.8. The initial implementation by the original authors was don on Ubuntu 20.04 and python 3.7.7
 
-- These are the steps followed to setup the environment using Ubuntu 20.04 and python 3.8
+- These are the steps followed to setup the environment for cardiotox using Ubuntu 20.04 and python 3.8
 	- download environment.yml file at https://github.com/Abdulk084/CardioTox/blob/master/environment.yml
 	- conda env create -f environment.yml
 	- conda activate cardiotox
