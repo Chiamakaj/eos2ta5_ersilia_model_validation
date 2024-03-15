@@ -78,7 +78,7 @@ Ubuntu 20.04 with Python 3.7
 
 ## Model Reproducibility
 
-- The data set used to reproduce the figures from the publication of the model can be found [here](https://github.com/Abdulk084/CardioTox/tree/master/data). This repository contains 
+- The dataset used to reproduce the figures from the publication of the model can be found [here](https://github.com/Abdulk084/CardioTox/tree/master/data). This repository contains 
 
 	|  Dataset   | Total | hERG blockers | hERG non-blockers |
 	|------------|-------|---------------|-------------------|
@@ -87,9 +87,9 @@ Ubuntu 20.04 with Python 3.7
 	|Test set II |   41  |       11      |        30         |
 	|Test set III|   740 |       30      |       710         |
 
-- The original modle was used to carry out this task. This model implementation can be found [here](https://github.com/Abdulk084/CardioTox/blob/master/README.md)
+- The original model was used to carry out the same task that was replicated here and the same dataset was also used. This model implementation can be found [here](https://github.com/Abdulk084/CardioTox/blob/master/README.md)
 
-- The implemetation was carried out on Ubuntu 20.04 and python 3.8. The initial implementation by the original authors was don on Ubuntu 20.04 and python 3.7.7
+- The implementation was carried out on Ubuntu 20.04 and python 3.8. The initial implementation by the original authors was don on Ubuntu 20.04 and python 3.7.7
 
 - These are the steps followed to setup the environment for cardiotox using Ubuntu 20.04 and python 3.8
 	- download environment.yml file at [here](https://github.com/Abdulk084/CardioTox/blob/master/environment.yml)
