@@ -105,7 +105,7 @@ Ubuntu 20.04 with Python 3.7
 	![image](https://github.com/Chiamakaj/Ersilia_model_validation/assets/88968378/84ec6920-8e11-420e-9fe0-c45aa33e82ab)
 
 
-	Issues faced while setting up the environment
+	**Issues faced while setting up the environment**
 	-  TypeError for protobuf 
 		- Solution: Downgraded protobut by using `pip install protobuf==3.20.0`
 	- Numpy version upgrade required
