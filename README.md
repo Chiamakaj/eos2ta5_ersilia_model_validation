@@ -161,7 +161,7 @@ External validation summary
 ## Reference
 - [Github](https://github.com/Abdulk084/CardioTox)
 - [Publication](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00541-z)
-- [Ersilia Model Page]([https://github.com/ersilia-os/eos2ta5?tab=readme-ov-file](https://github.com/ersilia-os/eos2ta5/tree/main))
+- [Ersilia Model Page](https://github.com/ersilia-os/eos2ta5/tree/main))
 
 ## License
 
