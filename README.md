@@ -52,7 +52,7 @@ Ubuntu 20.04 with Python 3.7
 - Convert the SMILES to standard SMILES using the function in src folder.
 - Use the RDKIT package to get the Inchikey representation of the molecules.
 - Export the file containing Inchikey and SMILES and save in a CSV file.
-- Select a model and run predictions via google colab on (https://github.com/ersilia-os/ersilia/blob/master/notebooks/ersilia-on-colab.ipynb).
+- Select a model and run predictions via google colab on [here](https://github.com/ersilia-os/ersilia/blob/master/notebooks/ersilia-on-colab.ipynb).
 - Create a scatter plot of the predictions (probability) gotten from the step above to show the model bias.
 
 # Findings
