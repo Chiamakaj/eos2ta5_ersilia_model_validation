@@ -155,7 +155,7 @@ External validation summary
 	|------------------|---------|-------|-------|-------|-------|-------|-------|-------|-------|
 	| External dataset | eos2ta5 | 0.683 | 0.321 | 0.631 | 0.659 | 0.693 | 0.727 | 0.592 | 0.659 |
 
-- AUC of the model is o.683 which is above 0.5 of a random classifier. From the ROC curve, it is oberserved that the model is able to discriminate between the positive and negative classes of the molecules. The model achieves higher TPR while keeping FPR low.
+- AUC of the model is 0.683 which is above 0.5 of a random classifier. From the ROC curve, it is oberserved that the model is able to discriminate between the positive and negative classes of the molecules. The model achieves higher TPR while keeping FPR low.
 
 ![image](https://github.com/Chiamakaj/Ersilia_model_validation/assets/88968378/49f2b76d-5f4b-4407-b6f0-801aa0f0c562)
 
