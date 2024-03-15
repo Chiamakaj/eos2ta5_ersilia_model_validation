@@ -19,19 +19,19 @@ Ubuntu 20.04 with Python 3.7
 1. Install miniconda3
 2. Install GitHub CLI
 3. Install and activate Git LFS from Conda using:
-        - conda install git-lfs -c conda-forge
-        - git-lfs install
+	- conda install git-lfs -c conda-forge
+	- git-lfs install
 4. Install Ersilia using:
-        - conda create -n ersilia python=3.7
-        - conda activate ersilia
-        - python -m pip install isaura==0.1
-        - git clone https://github.com/ersilia-os/ersilia.git
-        - cd ersilia
-        - pip install -e .
+	- conda create -n ersilia python=3.7
+	- conda activate ersilia
+	- python -m pip install isaura==0.1
+	- git clone https://github.com/ersilia-os/ersilia.git
+	- cd ersilia
+	- pip install -e .
 5. Test the selected model to be sure it works.
-        - ersilia -v fetch model_name
-        - ersilia serve model_name
-        - ersilia -v api run -i "CCCC"
+	- ersilia -v fetch model_name
+	- ersilia serve model_name
+	- ersilia -v api run -i "CCCC"
 
 ## Steps
 
@@ -121,7 +121,17 @@ Reproducibility Summary
   ![image](https://github.com/Chiamakaj/Ersilia_model_validation/assets/88968378/8e21759c-acf0-467d-9e89-99a2c2bb2735)
 
 
-**Model Performace using exterval validation**
+**Model Performace using external validation**
+
+External dataset was used to check the model performance. The dataset was gotten from ChEMBL and it contains 499 molecules. To avoid bias, no molecues used during the training was included in this validation set. The SMILEs obtained were converted to standard form and Inchikey also processed.
+
+External validation summary
+- As done during the reproducibility process, specificity, sensitivity, negative predictive value, positive predictive value, accuracy, Mathews correlation coefficient were used to evaluate the model's performance as seen in the table below. Ersilia model had about the same SPE and NPV score as when performed on test set-I. The model could perform better as it has an accuracy performace of 66% . The specificity and NPV seems to have a better score. The model could be tested on more dataset to get a better evaluation of its performance.
+
+- AUC of the model is o.683 which is above 0.5 of a random classifier. From the ROC curve, it is oberserved that the model is able to discriminate between the positive and negative classes of the molecules. The model achieves higher TPR while keeping FPR low.
+
+
+
 
 ## License
 
