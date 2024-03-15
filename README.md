@@ -1,12 +1,15 @@
 # Model Evaluation Summary for eos2ta5 (cardiotoxnet-herg)
 # Ligand-based prediction of hERG blockade
 
-## Repository organisation
-The repository is organised in folders:
-- **notebooks** folder contains the jupyter notebooks where most of the work is being developed
-- **data** folder contains all the .csv files. Model predictions are obtained outside this repository and saved in this folder.
-- **figures** contains the plots I have produced during the model validation process
-- 'requirements.txt' lists all the required packages to run the notebooks in this repository and the version of the package.
+## Model Characteristics
+
+- Input: Compound
+- Input Shape: Single
+- Task: Classification
+- Output: Probability
+- Output Type: Float
+- Output Shape: Single
+- Interpretation: Probability that the compound inhibits hERG (IC50 < 10 uM)
 
 
 ## Process
@@ -31,19 +34,19 @@ Ubuntu 20.04 with Python 3.7
 1. Install miniconda3
 2. Install GitHub CLI
 3. Install and activate Git LFS from Conda using:
-	- conda install git-lfs -c conda-forge
-	- git-lfs install
+	- `conda install git-lfs -c conda-forge`
+	- `git-lfs install`
 4. Install Ersilia using:
-	- conda create -n ersilia python=3.7
-	- conda activate ersilia
-	- python -m pip install isaura==0.1
-	- git clone `https://github.com/ersilia-os/ersilia.git`
-	- cd ersilia
-	- pip install -e .
+	- `conda create -n ersilia python=3.7`
+	- `conda activate ersilia`
+	- `python -m pip install isaura==0.1`
+	- `git clone https://github.com/ersilia-os/ersilia.git`
+	- `cd ersilia`
+	- `pip install -e .`
 5. Test the selected model to be sure it works.
-	- ersilia -v fetch model_name
-	- ersilia serve model_name
-	- ersilia -v api run -i "CCCC"
+	- `ersilia -v fetch model_name`
+	- `ersilia serve model_name`
+	- `ersilia -v api run -i "CCCC"`
 
 ## Steps
 
@@ -89,14 +92,14 @@ Ubuntu 20.04 with Python 3.7
 
 - These are the steps followed to setup the environment for cardiotox using Ubuntu 20.04 and python 3.8
 	- download environment.yml file at [here](https://github.com/Abdulk084/CardioTox/blob/master/environment.yml)
-	- conda env create -f environment.yml
-	- conda activate cardiotox
-	- git clone https://github.com/Abdulk084/CardioTox.git
-	- cd Cardiotox 
-	- cd PyBioMed
-	- python setup.py install
-	- cd ..
-   	- Test the model with "python test.py"
+	- `conda env create -f environment.yml`
+	- `conda activate cardiotox`
+	- `git clone https://github.com/Abdulk084/CardioTox.git`
+	- `cd Cardiotox`
+	- `cd PyBioMed`
+	- `python setup.py install`
+	- `cd ..`
+   	- Test the model with `python test.py`
    	  You should get an output like this
 
 	![image](https://github.com/Chiamakaj/Ersilia_model_validation/assets/88968378/84ec6920-8e11-420e-9fe0-c45aa33e82ab)
@@ -104,9 +107,9 @@ Ubuntu 20.04 with Python 3.7
 
 	Issues faced while setting up the environment
 	-  TypeError for protobuf 
-		- Solution: Downgraded protobut by using "pip install protobuf==3.20.0"
+		- Solution: Downgraded protobut by using `pip install protobuf==3.20.0`
 	- Numpy version upgrade required
-		- Solution: Upgraded numpy by using "pip install numpy==1.19.5"
+		- Solution: Upgraded numpy by using `pip install numpy==1.19.5`
 
 
 **Reproducibility Summary**
