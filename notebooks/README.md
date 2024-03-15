@@ -43,9 +43,9 @@ Ubuntu 20.04 with Python 3.7
 - Select a model and run predictions via google colab on (https://github.com/ersilia-os/ersilia/blob/master/notebooks/ersilia-on-colab.ipynb).
 - Create a scatter plot of the predictions (probability) gotten from the step above to show the model bias.
 
-## Findings
+# Findings
 
-**Model bias evaluation**
+## Model bias evaluation**
 
 - The initial prediction was carried out using 1000 SMILEs. After prediction, 752 SMILEs where categorized as hERG non-blocker while 248 were categorized as hERG blocker as their probability fall above 0.5.
 - The distribution of the probability shows that a large number of the molecules are below 0.5. According to the model's publication, this means that a larger number of molecules in the dataset selected are hERG non blockers while the rest that are 0.5 and above are hERG blockers.
@@ -60,7 +60,7 @@ Ubuntu 20.04 with Python 3.7
    
 
 
-**Model Reproducibility**
+## Model Reproducibility**
 
 - The data set used to reproduce the figures from the publication of the model can be found here (https://github.com/Abdulk084/CardioTox/tree/master/data). This repository contains 
 
@@ -96,7 +96,7 @@ Ubuntu 20.04 with Python 3.7
 	- Numpy version upgrade required
 		- Solution: Upgraded numpy by using "pip install numpy==1.19.5"
 
-Reproducibility Summary
+**Reproducibility Summary**
 
 - **All images/figures can be found in /figures folder**
 
@@ -128,7 +128,7 @@ Reproducibility Summary
 
 
 
-**Model Performace using external validation**
+## Model Performace using external validation
 
 External dataset was used to check the model performance. The dataset was gotten from ChEMBL and it contains 499 molecules. To avoid bias, no molecues used during the training was included in this validation set. The SMILEs obtained were converted to standard form and Inchikey also processed.
 
