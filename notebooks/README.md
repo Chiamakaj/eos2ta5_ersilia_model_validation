@@ -128,8 +128,13 @@ External dataset was used to check the model performance. The dataset was gotten
 External validation summary
 - As done during the reproducibility process, specificity, sensitivity, negative predictive value, positive predictive value, accuracy, Mathews correlation coefficient were used to evaluate the model's performance as seen in the table below. Ersilia model had about the same SPE and NPV score as when performed on test set-I. The model could perform better as it has an accuracy performace of 66% . The specificity and NPV seems to have a better score. The model could be tested on more dataset to get a better evaluation of its performance.
 
+	| Evaluation data  |  Method |  AUC  |  MCC  |  NPV  |  ACC  |  PPV  |  SPE  |  SEN  | B-ACC |
+	|------------------|---------|-------|-------|-------|-------|-------|-------|-------|-------|
+	| External dataset | eos2ta5 | 0.683 | 0.321 | 0.631 | 0.659 | 0.693 | 0.727 | 0.592 | 0.659 |
+
 - AUC of the model is o.683 which is above 0.5 of a random classifier. From the ROC curve, it is oberserved that the model is able to discriminate between the positive and negative classes of the molecules. The model achieves higher TPR while keeping FPR low.
 
+![image](https://github.com/Chiamakaj/Ersilia_model_validation/assets/88968378/49f2b76d-5f4b-4407-b6f0-801aa0f0c562)
 
 
 
