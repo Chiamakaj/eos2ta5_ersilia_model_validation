@@ -74,7 +74,7 @@ Ubuntu 20.04 with Python 3.7
 
 ## Model Reproducibility
 
-- The data set used to reproduce the figures from the publication of the model can be found here (https://github.com/Abdulk084/CardioTox/tree/master/data). This repository contains 
+- The data set used to reproduce the figures from the publication of the model can be found [here](https://github.com/Abdulk084/CardioTox/tree/master/data). This repository contains 
 
 	|  Dataset   | Total | hERG blockers | hERG non-blockers |
 	|------------|-------|---------------|-------------------|
@@ -83,7 +83,7 @@ Ubuntu 20.04 with Python 3.7
 	|Test set II |   41  |       11      |        30         |
 	|Test set III|   740 |       30      |       710         |
 
-- The original modle was used to carry out this task. This model implementation can be found https://github.com/Abdulk084/CardioTox/blob/master/README.md
+- The original modle was used to carry out this task. This model implementation can be found [here](https://github.com/Abdulk084/CardioTox/blob/master/README.md)
 
 - The implemetation was carried out on Ubuntu 20.04 and python 3.8. The initial implementation by the original authors was don on Ubuntu 20.04 and python 3.7.7
 
@@ -161,7 +161,7 @@ External validation summary
 ## Reference
 - [Github](https://github.com/Abdulk084/CardioTox)
 - [Publication](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00541-z)
-- [Ersilia Model Page](https://github.com/ersilia-os/eos2ta5/tree/main))
+- [Ersilia Model Page](https://github.com/ersilia-os/eos2ta5/tree/main)
 
 ## License
 
