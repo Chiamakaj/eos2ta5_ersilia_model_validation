@@ -108,7 +108,7 @@ Ubuntu 20.04 with Python 3.7
 
 	**Issues faced while setting up the environment**
 	-  TypeError for protobuf 
-		- Solution: Downgraded protobut by using `pip install protobuf == 3.20.0`
+		- Solution: Downgraded protobuf by using `pip install protobuf==3.20.0`
 	- Numpy version upgrade required
 		- Solution: Upgraded numpy by using `pip install numpy==1.19.5`
 
