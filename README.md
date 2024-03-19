@@ -127,7 +127,7 @@ Ubuntu 20.04 with Python 3.7
   ![image](https://github.com/Chiamakaj/Ersilia_model_validation/assets/88968378/afc91291-303d-487d-8098-9fdbe38f4af4)
 
 
-- Three tests sets were used by the authors to test the final model and some metrics like specificity, sensitivity, negative predictive value, positive predictive value, accuracy, Mathews correlation coefficient were used to evaluate the model's performance. This value was also reproduced in this work. The model performed well based on the sensitivity showing that it has a hogh chnage of predicting true positive values. It also performed well basen on the negative predictive value which tell that it has a high chance of predicting non-blokers correctly.
+- Three tests sets were used by the authors to test the final model and some metrics like specificity, sensitivity, negative predictive value, positive predictive value, accuracy, Mathews correlation coefficient were used to evaluate the model's performance. This value was also reproduced in this work. The model performed well based on the sensitivity showing that it has a hogh chnage of predicting true positive values. It also performed well basen on the negative predictive value which tell that it has a high chance of predicting non-blokers correctly. The original model implementation python file can be found [here](https://github.com/Chiamakaj/Ersilia_model_validation/blob/main/notebooks/cardiotox_implementation.py)
 
 	| Evaluation data |   Method  |  MCC  |  NPV  |  ACC  |  PPV  |  SPE  |  SEN  | B-ACC |
 	|-----------------|-----------|-------|-------|-------|-------|-------|-------|-------|
